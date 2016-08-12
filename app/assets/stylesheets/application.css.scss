@@ -7,8 +7,14 @@ body {
 	font-weight: 100;
 }
 
+
+
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 100;
+}
+
+.notice {
+	color: #d1d1d1;
 }
 
 .wrapper {
@@ -61,6 +67,52 @@ header {
 			}
 		}
 	}
+}
+
+input[type="text"], input[type="email"], input[type="password"], textarea {
+	width: 100%;
+	margin-bottom: 1rem;
+	border: 1px solid #d1d1d1;
+	border-radius: .4rem;
+	
+}
+
+input::-webkit-input-placeholder {
+color: #666666;
+  font-size: 85%;
+  
+}
+input:-moz-placeholder {
+  color: #666666;
+  font-size: 85%;
+}
+
+input::-moz-placeholder {
+  color: #666666;
+  font-size: 85%;
+}
+
+input:-ms-input-placeholder {
+   color: #666666;
+  font-size: 85%;;
+}
+
+
+
+
+label {
+	color: #666666;
+	
+}
+
+
+
+input[type="text"], input[type="email"], input[type="password"] {
+	height: 20px;
+}
+
+textarea {
+	min-height: 100px;
 }
 
 @import 'home.css.scss';
