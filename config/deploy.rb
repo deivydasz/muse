@@ -32,6 +32,7 @@ set :repo_url, 'git@github.com:ecusinner/muse.git'
 set :linked_files, %w{config/database.yml config/secrets.yml}
 set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system}
 
+set :passenger_restart_with_touch, true
 # Default value for default_env is {}
 # set :default_env, { path: "/opt/ruby/bin:$PATH" }
 
