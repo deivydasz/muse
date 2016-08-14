@@ -29,6 +29,8 @@ gem 'devise', '~> 4.2'
 gem 'acts_as_votable', '~> 0.10.0'
 gem 'paperclip', '~> 5.0'
 
+
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -51,9 +53,15 @@ group :development do
   gem 'spring'
 
   gem 'sqlite3'
+
+  gem 'capistrano', '~> 3.4'
+	gem 'capistrano-bundler', '~> 1.1', '>= 1.1.4'
+	gem 'capistrano-rails', '~> 1.1', '>= 1.1.7'
+	gem 'capistrano-rbenv', '~> 2.0', '>= 2.0.4'
 end
 
 group :production do
 	gem 'pg'
 	gem 'rails_12factor'
 end
+
