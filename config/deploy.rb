@@ -1,14 +1,14 @@
 # config valid only for current version of Capistrano
 lock '3.6.0'
 
-set :application, 'muse'
+set :application, 'wuse'
 set :repo_url, 'git@github.com:ecusinner/muse.git'
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 # Default deploy_to directory is /var/www/my_app_name
- set :deploy_to, '/home/deivis/muse'
+ set :deploy_to, '/home/deivis/wuse'
 
 # Default value for :scm is :git
 # set :scm, :git
